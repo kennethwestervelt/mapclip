@@ -39,7 +39,7 @@ if xOffset >= 1 and yOffset >= 1:
     while x < width:
       newImage +=1
       img_crop = im.crop((x,y,x+xOffset,y+yOffset))
-      img_crop.save (str(newImage), "PNG")
+      img_crop.save (str(newImage) + '.png')
       x = x + xOffset
            
     x = 0
