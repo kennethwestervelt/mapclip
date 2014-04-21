@@ -4,7 +4,6 @@ import sys
      
 im = Image.open(sys.argv[1])
 im.copy()
-im.size
 width = im.size[0]
 height = im.size[1]
 print "***********************************\n"
